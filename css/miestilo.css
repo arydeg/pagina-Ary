@@ -1,0 +1,111 @@
+body {
+  background-color: lightgrey;
+  background-image: url("../fotos/wallpaper3.jpg");
+  color: white;
+}
+
+#titulo{
+	text-align: center;
+	font-size: 5em; 
+	margin-top: 20px;
+	font-family: 'Allerta Stencil', sans-serif;
+
+}
+section#seccion-principal{
+	background-color: green;
+	margin-top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+section#seccion-secundaria{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+section#seccion-principal article{
+	display: inline-block;
+	text-align:center;
+	border-color: black;
+	margin:10px 0px;
+	width: 32%;
+	font-size: 1.5em;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.link{
+	color: lightblue;
+	text-decoration: underline lightblue;
+}
+
+h2#txt{
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 1.8em;
+	color: lightgrey;
+}
+h2#txtquiensoy{
+	padding-top: 8%;
+	padding-left:12%;
+	padding-right: 15%;
+	font-size: 1.8em;
+	color: lightgrey;
+}
+h2#txtIcons{
+	padding-left: 43%;
+	padding-top: 4%;
+	font-size: 2.5em;
+	color: lightgrey;
+}
+
+img.imgflotantes{
+  	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+}
+
+img.servicetecnico{
+  	float: right;
+  	width: 30%;
+  	height: 3%;
+  	padding-right: 10%;
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+a{ 
+	text-decoration: none;
+	color: black;
+}
+img.fotary{
+	margin-top: 5%;
+	margin-left: 12%;
+	margin-right: 3%;
+	float: left; 
+	border-radius: 50%;
+} 
+
+img.curriculum{
+	width: 60%;
+  	padding-right: 20%;
+	padding-left: 20%;
+	padding-top: 2%;
+}
+img.icons{
+	width: 5%;
+	float: left; 
+	padding-left: 35%;
+	padding-top: 3%;
+}
+input[type=submit]{
+	color:red;
+}
+
+@media screen and (max-width: 500px){
+	article{
+		display: block;
+		width: 100%;
+	}
+}
