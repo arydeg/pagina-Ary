@@ -1,4 +1,6 @@
-﻿function mostrarCurriculum(){
+﻿
+
+function mostrarCurriculum(){
 	
 	if(document.getElementById('curriculum').style.display == 'none'){
 		document.getElementById('curriculum').style.display = 'block';

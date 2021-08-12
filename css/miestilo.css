@@ -123,9 +123,15 @@ section.seccionProyectos{
 }
 
 .tablaProgramas{
-	width: 900%;
+	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
+}
+.tablaContacto{
+	display: flex;
+	justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section.seccionContacto{
@@ -172,12 +178,11 @@ section.seccionContacto{
 }
 
 @media screen and (max-width: 890px){
-
-     table {
+	     table {
        display: block;
        overflow-x: auto;
      }
-}
+	
 	.imgLogo{
 		width: 100%;
 	}
@@ -210,7 +215,7 @@ section.seccionContacto{
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
        table {
            width:100%;
        }
